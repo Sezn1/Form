@@ -1,134 +1,137 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	overflow-x: hidden;
-}
-img{
-	width: 100px;
-	height: 80px;
-	float: left;
-	margin: 0;
-}
-h2{
-	color: #0a0a9d;
-	font-size: 30px;
-	padding-top: 15px;
-}
-h2 > span{
-	color: red;
-}
-h2 > p{
-	font-size: 10px;
-}
-nav{
-	width: 100%;
-	height: 50px;
-	text-decoration: none;
-	background-color: #0abbff;
-	margin: 20px 0px;
-	padding-left: 30px;
-}
-nav ul{
-	display: flex;
-    font-size: 30px;
-}
-nav ul p{
-	margin-top: 10px;
-}
-nav ul li{
-	font-size: 25px;
-	margin-top: 12px;
-    text-decoration: none;
-    padding: 0px 30px;
-    list-style: none;
-}
-.box{
-	font-size: 30px;
-	text-align: center;
-}
- span{
-	color: red;
-}
-.box-1{
-	width: 90%;	
-	margin: auto;
-	padding-top: 30px;
-	padding-left: 20px;
-	margin-bottom: 20px;
-}
-.box-1 li{
-	font-size: 20px;
-    list-style: none;
-}
-.box-1 input{
-	width: 70%;
-	margin-bottom: 20px;
-	padding: 5px 0px;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid gray;
+
+
+
+
+
+
+ /*               */
+ 
+
+
+
+
+
+ 
+
+
+
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
-.box-2{
-	width: 90%;	
-	margin: auto;
-	padding-top: 30px;
-	padding-left: 20px;
-	margin-bottom: 20px;
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
-.box-2 li{
-	font-size: 20px;
-    list-style: none;
+
+nav li {
+    display: inline;
+    margin-right: 20px;
 }
-.box-2 input{
-	width: 70%;
-	margin-bottom: 20px;
-	padding: 5px 0px;
-	border: none;
-	outline: none;
-	border-bottom: 1px solid gray;
+
+/* Label styling */
+label {
+    margin-top: 20px;
+    display: block;
+    font-size: 18px;
+    color: #333;
 }
-.box-3{
-	width: 90%;	
-	margin: auto;
-	padding-top: 30px;
-	padding-left: 20px;
-	padding-bottom: 30px;
+
+/* Language input styling */
+.lang {
+    width: 200px;
+    padding: 12px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
+    transition: all 0.3s ease;
 }
-.box-3 .p{
-	font-size: 20px;
+
+.lang:hover {
+    background-color: #007bff;
+    color: #fff;
 }
-.box-3 .p{
-    display: flex;
-    float: left;
+
+/* Radio button styling */
+
+  input[type="radio"] {
+    display: none;
 }
-.box-3 > input{
-	padding: 0px 10px;
+
+input[type="radio"] + label {
+    border: 2px solid #007bff;
+    padding: 12px 24px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #555;
+    margin-top: 10px;
+    transition: all 0.3s ease;
 }
-legend{
-	font-size: 30px;
+
+input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
 }
-.btn{
-	margin: 30px 53px;
-	width: 150px;
-	padding: 7px 0px;
-	font-size: 15px;
-	border: 2px solid #049fcd;
-	outline: none;
-	border-radius: 4px;
-	background-color: #049fcd;
-	color: white;
-   	transition: all 0.4s;
+span {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #777;
+}  
+
+/* Date input styling */
+input[type="date"] {
+    padding: 12px;
+    width: 300px;
+    margin-top: 10px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
 }
-.btn:hover{
-	background-color: #088fb747;
-	color: black;
-	transition: all 0.4s;
+
+/* Select menu styling */
+select {
+    padding: 12px;
+    width: 300px;
+    margin-top: 10px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #555;
+    background-color: #fff;
 }
-.btn:active{
-	background-color: #049fcd;
-	color: white;
-	transition: all 0.4s;
+
+/* Button styling */
+ .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 14px 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+} 
+
+
+.btn:hover {
+    background-color: #0056b3;
 }
+
+
+
